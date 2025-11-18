@@ -212,9 +212,7 @@ docker-compose up -d
 ```yaml
 services:
   dock-dploy:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: hhftechnology/dock-dploy:latest
     container_name: dock-dploy
     restart: unless-stopped
     ports:
