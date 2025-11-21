@@ -1439,6 +1439,15 @@ function App() {
                       </a>{" "}
                       repository.
                     </div>
+                    <div className="mb-4">
+                      <Input
+                        type="text"
+                        placeholder="Search templates..."
+                        value={templateSearch}
+                        onChange={(e) => setTemplateSearch(e.target.value)}
+                        className="max-w-md"
+                      />
+                    </div>
                     <div className="flex-1 overflow-hidden">
                       {templateLoading ? (
                         <div className="h-32 flex items-center justify-center text-muted-foreground text-lg">

@@ -12,7 +12,6 @@ export interface TemplateCardProps {
 }
 
 export function TemplateCard({
-  id,
   name,
   description,
   version,

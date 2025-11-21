@@ -9,7 +9,7 @@ import {
 import { Button } from "../ui/button";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "../ui/tabs";
 import { CodeEditor } from "../CodeEditor";
-import { Copy, Download, ExternalLink, Github, Globe, BookOpen } from "lucide-react";
+import { Copy, Download, Github, Globe, BookOpen } from "lucide-react";
 import { copyToClipboard, downloadFile } from "../../utils/clipboard";
 import { useToast } from "../ui/toast";
 
